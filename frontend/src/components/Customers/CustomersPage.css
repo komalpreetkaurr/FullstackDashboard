@@ -1,0 +1,179 @@
+
+
+.customers-header {
+  margin-bottom: 20px;
+}
+
+.customers-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.customers-header p {
+  font-size: 16px;
+  color: #555; /* Dark gray text color for a softer look */
+}
+
+/* src/components/CustomersPage/CustomersPage.css */
+.customers-page {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr; /* One column layout */
+  grid-template-rows: auto auto auto; /* Three rows */
+
+  /* No background or additional styling needed here */
+}
+
+.customer-distribution-chart {
+  width: 500px;
+  padding: 10px;
+ 
+}
+/* src/components/CustomersPage/CustomersPage.css */
+.customers-page {
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+}
+
+.content-row {
+  display: flex;
+  gap: 20px; /* Space between items */
+}
+
+.customer-distribution-chart {
+  margin-bottom: -201px;
+  margin-left: -50px;
+  padding: 20px;
+}
+
+.updates-section {
+  margin-top: -50px;
+  margin-left: -100px;
+  background-color: #f9f9f9; /* White background for consistency */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 500px; 
+  height: 220px;
+}
+
+.updates-section h2 {
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+
+.updates-section {
+  margin-bottom: 20px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+
+.updates-section ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.updates-section li {
+  margin-bottom: 10px;
+}
+
+.updates-section li h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #2e2e2e;
+}
+
+.updates-section li p {
+  margin: 5px 0 0;
+  color: #666;
+}
+.customers-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+
+.chart-section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.chart-section > * {
+  margin-bottom: 20px;
+}
+
+.updates-section > * {
+  margin-bottom: 20px;
+}
+.pi{
+  margin-top: -40px;
+}
+.cus{
+  height:100px!important;
+ width:400px;
+    margin-Top:-90px;
+}
+.rw{
+  display: flex;
+  gap: 20px;
+}
+.customers-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #fdfafa;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: -34px;
+  margin-left: 15px;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customers-table th, .customers-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.customers-table thead {
+  background-color: #9b9a98; /* Blue header background */
+  color: #FFFFFF; /* White text color */
+}
+
+.customers-table tbody tr:nth-child(even) {
+  background-color: #F8F9FA; /* Light gray for even rows */
+}
+
+.customers-table tbody tr:nth-child(odd) {
+  background-color: #FFFFFF; /* White for odd rows */
+}
+
+.customers-table tbody tr:hover {
+  background-color: #919396; /* Light gray on hover */
+  color: white;
+}
+
+.status-active {
+  color: #28A745; 
+  font-weight: bold;
+}
+
+.status-inactive {
+  color: #DC3545; /* Red color for inactive status */
+}

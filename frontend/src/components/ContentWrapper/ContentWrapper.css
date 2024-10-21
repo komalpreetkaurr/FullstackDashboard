@@ -1,0 +1,32 @@
+.contentWrapper {
+    padding: 20px;
+    width:  105%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  .dashboardLayout {
+    display: flex;
+    gap: 20px; /* Add spacing between main and side content */
+  }
+  
+  .mainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sideContent {
+    width: 300px; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mainContent > * {
+    margin-bottom: 20px; /* Adjust spacing between elements */
+  }
+  
+  .sideContent > * {
+    margin-bottom: 20px; /* Adjust spacing between elements */
+  }
+  

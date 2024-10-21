@@ -1,0 +1,45 @@
+.TableContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+    gap: 1rem;
+  }
+  
+  .Table {
+    flex: 2;
+  }
+  
+  .tableContainer {
+    box-shadow: 0px 13px 20px 0px #80808029;
+  }
+  
+  .status {
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .details {
+    cursor: pointer;
+    color: #ff929f;
+  }
+  
+  .Graphs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .chart-container {
+    margin-bottom: 5px;
+    border-radius: 20px; 
+    overflow: hidden; 
+    border: 2px solid rgba(158, 148, 148, 0.1);
+    box-shadow: 0 4px 8px rgba(158, 148, 148, 0.1);
+    padding: 0; /* Zero padding */
+    display: flex; /* Ensure content stretches to container bounds */
+    align-items: center; /* Center align if needed */
+    justify-content: center;
+  }
+  

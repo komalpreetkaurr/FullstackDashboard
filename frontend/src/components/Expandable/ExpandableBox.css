@@ -1,0 +1,37 @@
+/* ExpandableBox.css */
+
+.expandable-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    /* Ensure content does not take space when collapsed */
+    max-height: 100px;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .expandable-box.expanded {
+    max-height: 600px; /* Adjust based on content height */
+  }
+  
+  .box-header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box-content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-content .apexcharts-canvas {
+    width: 100%;
+  }
+  
